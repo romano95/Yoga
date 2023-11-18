@@ -1,0 +1,486 @@
+body {
+    background-color: #cbffed63;
+}
+
+.text_nav {
+    color: rgba(0, 0, 0, 1);
+    font-size: 28px;
+    font-family: 'Heebo';
+}
+
+.text_nav:hover {
+    color: rgba(26, 127, 114, 1);
+    font-size: 30px;
+    font-weight: 500;
+    border-bottom: 3px solid rgba(26, 127, 114, 1);
+}
+
+.section_1 {
+    background-image: url('/BG_vector.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: local;
+    height: 1195px;
+}
+
+.text_h1 {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 22px;
+}
+
+.text_1 {
+    font-family: 'Merienda One';
+    font-size: 68px;
+    font-weight: 400;
+    font-style: italic;
+    color: rgba(255, 255, 255, 1);
+}
+.p_1 {
+    font-size: 24px;
+    font-family: 'Heebo';
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 31px;
+}
+
+.btn_get-start {
+    width: 300px;
+    height: 75px;
+    border-radius: 50px;
+    background-color: rgba(21, 150, 133, 1);
+    box-shadow: rgba(21, 113, 101, 0.2);
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Heebo';
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+}
+
+.btn_get-start:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.pad-bott-btn {
+    padding-bottom: 70px;
+}
+
+.box_image_1 {
+    position: relative;
+    animation: 2s linear 0s infinite alternate bigimage;
+}
+
+.image_1 {
+    max-width: 100%;
+}
+
+.section_2 {
+    padding-top: 120px;
+}
+
+.box-inform-1 {
+    background-color: 
+    rgba(255, 255, 255, 1);
+    box-shadow: 0px 19px 50px 0px rgba(26, 127, 114, 0.15);
+    text-align: center;
+    border-radius: 100px;
+    width: 400px;
+    
+}
+
+.box-inform-2 {
+    background-color: 
+    rgba(255, 255, 255, 1);
+    box-shadow: 0px 19px 50px 0px rgba(26, 127, 114, 0.15);
+    text-align: center;
+    border-radius: 100px;
+    width: 400px;
+}
+
+.box-inform-3 {
+    background-color: 
+    rgba(255, 255, 255, 1);
+    box-shadow: 0px 19px 50px 0px rgba(26, 127, 114, 0.15);
+    text-align: center;
+    border-radius: 100px;
+    width: 400px;
+}
+
+.s_b {
+    justify-content: space-between;
+}
+
+.btn_inform {
+    padding-top: 60px;
+    padding-bottom: 90px;
+}
+
+.text_meditation {
+    font-size: 32px;
+    font-family: 'Heebo';
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+}
+
+.p-meditation {
+    font-family: 'Heebo';
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+    padding-top: 20px;
+}
+
+.btn_lean-more {
+    padding-bottom: 100px;
+    padding-top: 60px;
+}
+
+.lean-more {
+    background-color: rgba(21, 150, 133, 1);
+    box-shadow: 0px 13px 28px 0px rgba(26, 127, 114, 0.2);
+    border: none;
+    border-radius: 30px;
+    color: 
+    rgba(255, 255, 255, 1);
+    font-size: 24px;
+    font-weight: 400;
+    width: 210px;
+    height: 55px;    
+}
+
+.lean-more:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.image_meditation {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.text_2 {
+    color: rgba(0, 0, 0, 1);
+    font-size: 54px;
+    font-family: 'Merienda One';
+    font-weight: 400;
+    font-style: italic;
+    line-height: 70px;
+}
+
+.practice_text {
+    text-align: center;
+    padding-top: 77px;
+}
+
+.practice_p {
+    font-family: 'Heebo';
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 22px;
+}
+
+.box-yoga {
+    padding-top: 70px;
+}
+
+.yoga-1 {
+    width: 580px;   
+}
+
+.bg_white-box div {
+    color:rgba(0, 0, 0, 0.8);
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Heebo';
+    line-height: 37px;
+    padding-top: 10px;
+}
+
+.bg_white-box p {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Heebo';
+    line-height: 31px;
+    color: 
+    rgba(0, 0, 0, 0.5);
+}
+
+.bg_white-box:hover {
+    
+    transform: translate(-1%, -1%);
+    cursor:context-menu;
+    border: 1px solid 
+    rgba(26, 127, 114, 0.2);
+    transform: rotate(-1deg);
+}
+
+.take {
+    margin-top: 40px;
+}
+
+.section_sound {
+    background-image: url('/bg-fover.png');
+    background-repeat: no-repeat;
+    height: 1000px;
+    
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid rgba(30, 151, 135, 1);
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(26, 127, 114, 0.46) 0%, rgba(26, 127, 114, 0) 96.77%);
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px
+}
+
+.name_sound {
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Heebo';
+    color: 
+    rgba(0, 0, 0, 0.8);
+    line-height: 47px;
+}
+
+.text-ander_sound {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.btn-play-btn {
+    background: linear-gradient(180deg, #259385 0%, #159685 100%), linear-gradient(180deg, #E6F8F5 0%, #EDFBF9 100%);
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    border: 2px solid;
+    border-image-source: linear-gradient(90deg, #1E9787 0%, rgba(26, 127, 114, 0.38) 49.39%, rgba(26, 127, 114, 0.13) 73.58%, rgba(26, 127, 114, 0.04) 91.23%);
+}
+
+.w_img_sound {
+    width: 696px;
+}
+
+.w-img {
+    padding-left: 30px;
+}
+
+.btn-play {
+    padding-right: 30px;
+}
+
+.section-table {
+    background-image: url('/Background_green.png');
+    Width: 100%;
+    Height:1314px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.text-the_best {
+    text-align: center;
+    padding-top: 85px;
+}
+
+.text-the_best h2 {
+    color:rgba(0, 0, 0, 1);
+    font-size: 54px;
+    font-family: 'Merienda One';
+    font-weight: 400;
+    line-height: 70px;
+}
+
+.text-the_best p {
+    font-family: Heebo;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31px; 
+    color:rgba(0, 0, 0, 0.5);    
+    padding-bottom: 65px;
+}
+
+.text_left {
+    text-align: end;
+}
+
+
+.text-p-1 {
+    font-size: 32px;
+    font-family: 'Heebo';
+    line-height: 47px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.text-p-2 {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 24px;
+    font-family: 'Heebo';
+    font-weight: 400;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    line-height: 25px;
+}
+
+.text_left {
+    background: linear-gradient(271deg, #378377 -5.44%, rgba(176, 234, 226, 0) 104.61%),linear-gradient(122deg, #C3EEE8 26.37%, rgba(195, 226, 222, 0.75) 63.87%, rgba(231, 243, 242, 0.4) 103.6%);
+    border: 4px solid;
+    border-color: #addad4;
+    border-radius: 15px;
+    padding-right: 35px;
+    padding-top: 20px;
+    height: 200px;
+   
+}
+
+.image_yogaaa {
+    max-width: 339px;
+}
+.center-img {
+    text-align: center;
+}
+
+
+
+.pad-0 {
+    padding: 0 0;
+}
+
+.text_right {
+    background: linear-gradient(88deg, #378377 -4.86%, rgba(176, 234, 226, 0) 105.44%), linear-gradient(211deg, #C3EEE8 26.37%, rgba(195, 226, 222, 0.75) 63.87%, rgba(231, 243, 242, 0.4) 103.6%);
+    border: 4px solid;
+    border-color: #addad4;
+    border-radius: 15px;
+    padding-left: 35px;
+    padding-top: 20px;
+    height: 200px;
+    
+}
+
+.flex-yoga-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.w-h-img {
+    width: 703px;
+}
+
+.pd-r {
+    padding-right: 98.5px;
+}
+
+.pd-l {
+    padding-left: 98.5px;
+}
+
+.zagolovok {
+    font-family: 'Heebo';
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 47px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.zag_paragr {
+    font-family: 'Heebo';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.block-text {
+    padding-left: 98.5px;
+}
+
+.pad-btn {
+    padding-top: 30px;
+}
+
+.pad-container-box {
+    padding-top: 70px;
+}
+
+.footer-section {
+    background-image: url('/background_footer.png');
+    width: 100%;
+    height: 425px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.logo-footer {
+    text-align: center;
+    padding-top: 113px;
+}
+
+.img-logo-footer {
+    width: 152px;
+    height: 124px;
+}
+
+.pad-footer-nav {
+    padding-top: 20px;
+}
+
+.text-nav {
+    font-family: 'Heebo';
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 41px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.text-nav:hover {
+    color: rgba(0, 0, 0, 1);
+    border-bottom: 2px solid black;
+}
+
+
+.border {
+    border-right: 1px solid rgba(0, 0, 0, 1);
+}
+
+.footer-flex {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    width: 55px;
+    height: 55px;
+    margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes bigimage {
+    from {
+        transform: translateY(3vh);
+      }
+      to {
+        transform: translateY(0);
+      }
+    }
